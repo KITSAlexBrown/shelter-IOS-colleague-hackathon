@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A60CBEB2050074C00C463EB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A60CBEA2050074C00C463EB /* Profile.storyboard */; };
+		8A60CBED2050178700C463EB /* EventNearbyWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A60CBEC2050178700C463EB /* EventNearbyWindow.xib */; };
+		8A60CBEF2050182800C463EB /* EventNearbyWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60CBEE2050182800C463EB /* EventNearbyWindow.swift */; };
+		8A60CBF22050214F00C463EB /* VolunteerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60CBF12050214F00C463EB /* VolunteerViewCell.swift */; };
+		8A60CBF6205022A900C463EB /* VolunteerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A60CBF5205022A900C463EB /* VolunteerViewController.swift */; };
+		8A82E7E8204FE6EC005D9BC4 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A82E7E7204FE6EC005D9BC4 /* DonateViewController.swift */; };
+		8A82E7E9204FE89D005D9BC4 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A82E7E1204FE67D005D9BC4 /* GoogleMaps.framework */; };
+		8A82E7EA204FE89D005D9BC4 /* GoogleMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A82E7E1204FE67D005D9BC4 /* GoogleMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A82E7EB204FE89D005D9BC4 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A82E7E3204FE67D005D9BC4 /* GoogleMapsBase.framework */; };
+		8A82E7EC204FE89D005D9BC4 /* GoogleMapsBase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A82E7E3204FE67D005D9BC4 /* GoogleMapsBase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A82E7ED204FE89D005D9BC4 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A82E7E2204FE67D005D9BC4 /* GoogleMapsCore.framework */; };
+		8A82E7EE204FE89D005D9BC4 /* GoogleMapsCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A82E7E2204FE67D005D9BC4 /* GoogleMapsCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A82E7F4204FECC5005D9BC4 /* Proxima-Nova-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E7F2204FECB5005D9BC4 /* Proxima-Nova-Semibold.ttf */; };
+		8A82E7F5204FECC8005D9BC4 /* Proxima-Nova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E7F3204FECB5005D9BC4 /* Proxima-Nova-Regular.ttf */; };
+		8A82E7F7204FECEF005D9BC4 /* Proxima-Nova-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A82E7F6204FECEA005D9BC4 /* Proxima-Nova-Thin.ttf */; };
+		8A82E7F9204FFFC6005D9BC4 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A82E7F8204FFFC6005D9BC4 /* QuestionViewController.swift */; };
 		8ADF632E204EC23200665800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF632D204EC23200665800 /* AppDelegate.swift */; };
-		8ADF6330204EC23200665800 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF632F204EC23200665800 /* FirstViewController.swift */; };
-		8ADF6332204EC23200665800 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF6331204EC23200665800 /* SecondViewController.swift */; };
+		8ADF6330204EC23200665800 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF632F204EC23200665800 /* ProfileViewController.swift */; };
+		8ADF6332204EC23200665800 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF6331204EC23200665800 /* NearbyViewController.swift */; };
 		8ADF6335204EC23200665800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF6333204EC23200665800 /* Main.storyboard */; };
 		8ADF6337204EC23200665800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF6336204EC23200665800 /* Assets.xcassets */; };
 		8ADF633A204EC23200665800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF6338204EC23200665800 /* LaunchScreen.storyboard */; };
 		8ADF6345204EC23200665800 /* ShelterUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF6344204EC23200665800 /* ShelterUsersTests.swift */; };
 		8ADF6350204EC23200665800 /* ShelterUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF634F204EC23200665800 /* ShelterUsersUITests.swift */; };
+		8ADF639E204EDE0500665800 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF639D204EDE0500665800 /* EntryController.swift */; };
+		8ADF63A0204EDE5E00665800 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF639F204EDE5E00665800 /* TabController.swift */; };
+		8ADF63E5204F006B00665800 /* KFMapsMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF63E4204F006B00665800 /* KFMapsMarker.swift */; };
+		8ADF63E8204F013600665800 /* NearbyInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADF63E7204F013600665800 /* NearbyInfoWindow.swift */; };
+		8ADF63EA204F014900665800 /* NearbyInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF63E9204F014900665800 /* NearbyInfoWindow.xib */; };
+		8ADF63EE204F0DB200665800 /* Authenticated.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF63ED204F0DB200665800 /* Authenticated.storyboard */; };
+		8ADF63F0204F0DC400665800 /* Donate.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADF63EF204F0DC400665800 /* Donate.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +57,50 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8ADF63C5204EEEB000665800 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8A82E7EA204FE89D005D9BC4 /* GoogleMaps.framework in Embed Frameworks */,
+				8A82E7EE204FE89D005D9BC4 /* GoogleMapsCore.framework in Embed Frameworks */,
+				8A82E7EC204FE89D005D9BC4 /* GoogleMapsBase.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ADF63CB204EEFD300665800 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8A60CBEA2050074C00C463EB /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		8A60CBEC2050178700C463EB /* EventNearbyWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventNearbyWindow.xib; sourceTree = "<group>"; };
+		8A60CBEE2050182800C463EB /* EventNearbyWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventNearbyWindow.swift; sourceTree = "<group>"; };
+		8A60CBF12050214F00C463EB /* VolunteerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerViewCell.swift; sourceTree = "<group>"; };
+		8A60CBF5205022A900C463EB /* VolunteerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunteerViewController.swift; sourceTree = "<group>"; };
+		8A82E7E1204FE67D005D9BC4 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		8A82E7E2204FE67D005D9BC4 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		8A82E7E3204FE67D005D9BC4 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		8A82E7E7204FE6EC005D9BC4 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		8A82E7F2204FECB5005D9BC4 /* Proxima-Nova-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Semibold.ttf"; sourceTree = "<group>"; };
+		8A82E7F3204FECB5005D9BC4 /* Proxima-Nova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Regular.ttf"; sourceTree = "<group>"; };
+		8A82E7F6204FECEA005D9BC4 /* Proxima-Nova-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Thin.ttf"; sourceTree = "<group>"; };
+		8A82E7F8204FFFC6005D9BC4 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		8ADF632A204EC23200665800 /* ShelterUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShelterUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADF632D204EC23200665800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8ADF632F204EC23200665800 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8ADF6331204EC23200665800 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8ADF632F204EC23200665800 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8ADF6331204EC23200665800 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		8ADF6334204EC23200665800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ADF6336204EC23200665800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ADF6339204EC23200665800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +111,13 @@
 		8ADF634B204EC23200665800 /* ShelterUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShelterUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ADF634F204EC23200665800 /* ShelterUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterUsersUITests.swift; sourceTree = "<group>"; };
 		8ADF6351204EC23200665800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADF639D204EDE0500665800 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		8ADF639F204EDE5E00665800 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		8ADF63E4204F006B00665800 /* KFMapsMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFMapsMarker.swift; sourceTree = "<group>"; };
+		8ADF63E7204F013600665800 /* NearbyInfoWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyInfoWindow.swift; sourceTree = "<group>"; };
+		8ADF63E9204F014900665800 /* NearbyInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NearbyInfoWindow.xib; sourceTree = "<group>"; };
+		8ADF63ED204F0DB200665800 /* Authenticated.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authenticated.storyboard; sourceTree = "<group>"; };
+		8ADF63EF204F0DC400665800 /* Donate.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Donate.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A82E7E9204FE89D005D9BC4 /* GoogleMaps.framework in Frameworks */,
+				8A82E7ED204FE89D005D9BC4 /* GoogleMapsCore.framework in Frameworks */,
+				8A82E7EB204FE89D005D9BC4 /* GoogleMapsBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +148,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A60CBF02050213700C463EB /* Volunteer */ = {
+			isa = PBXGroup;
+			children = (
+				8A60CBF12050214F00C463EB /* VolunteerViewCell.swift */,
+				8A60CBF5205022A900C463EB /* VolunteerViewController.swift */,
+			);
+			path = Volunteer;
+			sourceTree = "<group>";
+		};
+		8A82E7E0204FE67D005D9BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A82E7E1204FE67D005D9BC4 /* GoogleMaps.framework */,
+				8A82E7E3204FE67D005D9BC4 /* GoogleMapsBase.framework */,
+				8A82E7E2204FE67D005D9BC4 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A82E7F1204FEC63005D9BC4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8A82E7F3204FECB5005D9BC4 /* Proxima-Nova-Regular.ttf */,
+				8A82E7F6204FECEA005D9BC4 /* Proxima-Nova-Thin.ttf */,
+				8A82E7F2204FECB5005D9BC4 /* Proxima-Nova-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		8ADF6321204EC23100665800 = {
 			isa = PBXGroup;
 			children = (
+				8A82E7F1204FEC63005D9BC4 /* Fonts */,
+				8ADF63E3204F005B00665800 /* Maps */,
 				8ADF632C204EC23200665800 /* ShelterUsers */,
 				8ADF6343204EC23200665800 /* ShelterUsersTests */,
 				8ADF634E204EC23200665800 /* ShelterUsersUITests */,
 				8ADF632B204EC23200665800 /* Products */,
+				8A82E7E0204FE67D005D9BC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +203,18 @@
 		8ADF632C204EC23200665800 /* ShelterUsers */ = {
 			isa = PBXGroup;
 			children = (
+				8A60CBF02050213700C463EB /* Volunteer */,
+				8ADF63F4204F0FCA00665800 /* Donate */,
+				8ADF63F3204F0FC100665800 /* Profile */,
+				8ADF63EC204F0D9200665800 /* Authenticated */,
+				8ADF63E6204F011300665800 /* Nearby */,
 				8ADF632D204EC23200665800 /* AppDelegate.swift */,
-				8ADF632F204EC23200665800 /* FirstViewController.swift */,
-				8ADF6331204EC23200665800 /* SecondViewController.swift */,
 				8ADF6333204EC23200665800 /* Main.storyboard */,
 				8ADF6336204EC23200665800 /* Assets.xcassets */,
 				8ADF6338204EC23200665800 /* LaunchScreen.storyboard */,
 				8ADF633B204EC23200665800 /* Info.plist */,
+				8ADF639D204EDE0500665800 /* EntryController.swift */,
+				8A82E7F8204FFFC6005D9BC4 /* QuestionViewController.swift */,
 			);
 			path = ShelterUsers;
 			sourceTree = "<group>";
@@ -128,6 +237,53 @@
 			path = ShelterUsersUITests;
 			sourceTree = "<group>";
 		};
+		8ADF63E3204F005B00665800 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF63E4204F006B00665800 /* KFMapsMarker.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		8ADF63E6204F011300665800 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF63E9204F014900665800 /* NearbyInfoWindow.xib */,
+				8ADF6331204EC23200665800 /* NearbyViewController.swift */,
+				8ADF63E7204F013600665800 /* NearbyInfoWindow.swift */,
+				8A60CBEC2050178700C463EB /* EventNearbyWindow.xib */,
+				8A60CBEE2050182800C463EB /* EventNearbyWindow.swift */,
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		8ADF63EC204F0D9200665800 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF639F204EDE5E00665800 /* TabController.swift */,
+				8ADF63ED204F0DB200665800 /* Authenticated.storyboard */,
+			);
+			path = Authenticated;
+			sourceTree = "<group>";
+		};
+		8ADF63F3204F0FC100665800 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF632F204EC23200665800 /* ProfileViewController.swift */,
+				8A60CBEA2050074C00C463EB /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8ADF63F4204F0FCA00665800 /* Donate */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF63EF204F0DC400665800 /* Donate.storyboard */,
+				8A82E7E7204FE6EC005D9BC4 /* DonateViewController.swift */,
+			);
+			path = Donate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +294,8 @@
 				8ADF6326204EC23100665800 /* Sources */,
 				8ADF6327204EC23100665800 /* Frameworks */,
 				8ADF6328204EC23100665800 /* Resources */,
+				8ADF63C5204EEEB000665800 /* Embed Frameworks */,
+				8ADF63CB204EEFD300665800 /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -235,8 +393,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADF63EA204F014900665800 /* NearbyInfoWindow.xib in Resources */,
+				8A82E7F4204FECC5005D9BC4 /* Proxima-Nova-Semibold.ttf in Resources */,
+				8A60CBEB2050074C00C463EB /* Profile.storyboard in Resources */,
 				8ADF633A204EC23200665800 /* LaunchScreen.storyboard in Resources */,
+				8A82E7F5204FECC8005D9BC4 /* Proxima-Nova-Regular.ttf in Resources */,
+				8ADF63EE204F0DB200665800 /* Authenticated.storyboard in Resources */,
+				8A82E7F7204FECEF005D9BC4 /* Proxima-Nova-Thin.ttf in Resources */,
 				8ADF6337204EC23200665800 /* Assets.xcassets in Resources */,
+				8ADF63F0204F0DC400665800 /* Donate.storyboard in Resources */,
+				8A60CBED2050178700C463EB /* EventNearbyWindow.xib in Resources */,
 				8ADF6335204EC23200665800 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +428,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ADF6332204EC23200665800 /* SecondViewController.swift in Sources */,
+				8ADF63A0204EDE5E00665800 /* TabController.swift in Sources */,
+				8ADF6332204EC23200665800 /* NearbyViewController.swift in Sources */,
+				8ADF63E8204F013600665800 /* NearbyInfoWindow.swift in Sources */,
 				8ADF632E204EC23200665800 /* AppDelegate.swift in Sources */,
-				8ADF6330204EC23200665800 /* FirstViewController.swift in Sources */,
+				8A60CBF22050214F00C463EB /* VolunteerViewCell.swift in Sources */,
+				8A60CBEF2050182800C463EB /* EventNearbyWindow.swift in Sources */,
+				8ADF639E204EDE0500665800 /* EntryController.swift in Sources */,
+				8ADF6330204EC23200665800 /* ProfileViewController.swift in Sources */,
+				8A60CBF6205022A900C463EB /* VolunteerViewController.swift in Sources */,
+				8ADF63E5204F006B00665800 /* KFMapsMarker.swift in Sources */,
+				8A82E7E8204FE6EC005D9BC4 /* DonateViewController.swift in Sources */,
+				8A82E7F9204FFFC6005D9BC4 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +605,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44ZUGMC99E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = ShelterUsers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingfisher.ShelterUsers;
@@ -445,8 +626,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44ZUGMC99E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = ShelterUsers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kingfisher.ShelterUsers;

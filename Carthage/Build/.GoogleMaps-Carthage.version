@@ -1,0 +1,21 @@
+{
+  "commitish" : "2.4.0",
+  "iOS" : [
+    {
+      "name" : "GoogleMapsM4B",
+      "hash" : "0c73c0d003dc8c3ab9c58dead2ba3c7419b297b7b6f08a7c4951966be17132c1"
+    },
+    {
+      "name" : "GoogleMapsBase",
+      "hash" : "f7526ee80ee44cbd65981630cb893038ab4ac8a31352a0b3171008b9609298ff"
+    },
+    {
+      "name" : "GoogleMaps",
+      "hash" : "3752c8283870d48e8fcff4f067baafe86a533584ee333585adb4f7edf0fa19c9"
+    },
+    {
+      "name" : "GoogleMapsCore",
+      "hash" : "8c481a4a35f8c06b67c2df984ca0a2ca47e1e127ba4f7630560005146912cf58"
+    }
+  ]
+}
